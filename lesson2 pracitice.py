@@ -25,17 +25,16 @@ print("\n")
 print("aaaaa")
 
 for y in range(c,e):
-    if i == 1:
+    for i in range(c,d):
+     if i == 1:
         tmax=d/2
         tmin=d/2
-        print("next")
-    else:
+        #print("next")
+     else:
         tmax=d/2+1
         tmin=d/2-1
-        for i in range(c,d):
-           if i <= tmax and i>= tmin:
+        if i <= tmax and i>= tmin:
               print(a,end="")
-             
-           else:
+        else:
               print(b,end="")
     
