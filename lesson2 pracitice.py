@@ -48,11 +48,13 @@ for y in range(c,e):
 
 
 def triangle():
+    e=input("inupy triangle hight:")
     a='*'
     b=' '
     c=1
-    d=50
-    e=25
+    #d=6
+    #e=200
+    d=2*e-2
     i=1
     y=1
     p=''
@@ -72,11 +74,12 @@ def triangle():
                 p=b
            
             print(p,end="")
-            if i==5:
+            if i==d-1:
                 print('')
                 
 
     
-d=input('input high:')
+
+#d=input("input trianglr width:")
 triangle()
 
