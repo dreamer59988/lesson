@@ -48,7 +48,8 @@ for y in range(c,e):
 
 
 def triangle():
-    e=input("inupy triangle hight:")
+    e=int(input("input triangle hight:"))+1
+    #e=int(e)
     a='*'
     b=' '
     c=1
@@ -80,6 +81,6 @@ def triangle():
 
     
 
-#d=input("input trianglr width:")
+
 triangle()
 
